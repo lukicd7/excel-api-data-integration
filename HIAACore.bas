@@ -1,5 +1,5 @@
 Attribute VB_Name = "HIAACore"
-Sub GrabData(control As IRibbonControl)
+Sub GeneralData(control As IRibbonControl)
     
 ' Ask user to enter an API to fetch data from
     api_url = Application.InputBox(Prompt:="Data URL", _
